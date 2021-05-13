@@ -1,7 +1,7 @@
 # adapted from https://cs.anu.edu.au/courses/comp1720/resources/faq/#statement-of-originality
 
 # put *your* name here
-name:
+name: Darabana Roberta-Ana-Maria
 
 declaration: >-
   I declare that everything I have submitted in this assignment is entirely my
@@ -17,9 +17,9 @@ collaboration:
 
 # add as many "url+licence+comment" entries as necessary
 # (or remove it altogether if you haven't used any external code)
-code:
-  - comment:
-    url:
+code: Blob Detection Using OpenCV
+  - comment: Python script for blob detection algorithm
+    url: https://learnopencv.com/blob-detection-using-opencv-python-c/
     licence:
 
 
