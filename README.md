@@ -12,10 +12,11 @@ Acest step sequencer se bazeaza pe computer vision pentru a urmari pozitia unor 
 ### IP Webcam
 Am optat pentru a folosi telefonul pe post de camera web, prin intermediul acestei aplicatii de pe Play Store.
 
-### stream_script.py (WIP)
+### WIP
+### stream_script.py
 Acest cod va analiza flux video, va mapa locatiile pieselor in doua matrici.
 
-### step_sequencer.maxpat (WIP)
+### step_sequencer.maxpat
 Acest patch va primi mesage OSC care se va updata continuu cu sunetul generat de fiecare pozitie ocupata in matrice.
 
 
