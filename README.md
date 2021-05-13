@@ -25,7 +25,7 @@ Este necesara o camera web (telefon) centrata deasupra matricei de piese. Se va 
 
 ## Istoric
 
-(13.05) Formularea unui plan cat mai concret, documentarea privind alegerea unui algoritm de detectie cat mai eficient (blob_detection.py), realizarea conexiunii cu o camera web (android_cam.py).
+(13.05) Documentarea privind alegerea unui algoritm de detectie cat mai eficient (blob_detection.py), realizarea conexiunii cu o camera web (android_cam.py).
 
 (3.06) ...
 
