@@ -1,46 +1,36 @@
-# (Titlu)
-(Scurtă descriere)
+# Step Sequencer
+Acest step sequencer se bazeaza pe computer vision pentru a urmari pozitia unor obiecte albe si negre (tokens) in interiorul unei matrici. OpenCV va procesa un flux video live de la o camera web, convertind iamginea in alb si negru pentru a izola pe rand piesele albe si negre. Se va folosi algoritmul de detectare a blob-ului din OpenCV pentru a se putea identifica centrul fiecarei piese asezata in matrice. Piesele albe, respectiv negre, vor fi mapate in doua matrici distincte ce vor fi trimise mai departe catre Max MSP prin OSC.
 
-## (Instalare)
-...
+## Instalare
 
-## (Utilizare)
-...
+### Dependente
+- OpenCV
+- Numpy
+- Max MSP
+- OSC
 
-## (Istoric)
+### stream_script.py (WIP)
+Acest cod va analiza flux video, va mapa locatiile pieselor in doua matrici.
 
-(13.05) ...
+### step_sequencer.maxpat (WIP)
+Acest patch va primi mesage OSC care se va updata continuu cu sunetul generat de fiecare pozitie ocupata in matrice.
+
+
+## Utilizare
+Este necesara o camera web centrata deasupra matricei de piese. Se va rula scriptul python stream_script.py care va cere incadrarea matricei intre patru margini apoi pornirea streamului. Apoi se va rula patch-ul.
+
+## Istoric
+
+(13.05) Formularea unui plan cat mai concret, documentarea privind alegerea unui algoritm de detectie cat mai eficient, realizarea conexiunii cu o camera web.
 
 (3.06) ...
 
 (X.06) ...
 
 ## (Link-uri)
-...
+https://learnopencv.com/blob-detection-using-opencv-python-c/
 
-# Dezvoltarea proiectului
 
-Pentru început:
-
-1. Creează-ți cont pe Github
-2. Download și install [Github Desktop](https://desktop.github.com/)
-3. Citește [acest ghid](https://charlesmartin.com.au/blog/2020/08/09/student-project-repository) și ține la îndemână [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet).
-
-Apoi, procesul este următorul (inspirat de [aici](https://cs.anu.edu.au/courses/comp1720/deliverables/05-major-project/#submission-process)):
-
-1. *fork* al acestui template către propriul tău cont de Github
-
-![](assets/fork.gif)
-
-_(dacă preferi cumva ca repo-ul să nu fie vizibil de către public, îl poți seta ca Private din Settings - "Change visibility". Atunci trebuie să mă adaugi drept colaborator, ca eu să am acces.)_
-
-2. *clone* al repo-ului din Github Desktop pentru a-l downloada local
-
-![](assets/clone.gif)
-
-3. *commit* și *push* pe măsură ce lucrezi la proiect. Ultima versiune push-ată pe server înainte de deadline va conta pentru evaluare.
-
-![](assets/commit.gif)
 
 ## Elemente obligatorii
 
