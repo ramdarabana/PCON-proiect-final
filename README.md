@@ -9,6 +9,9 @@ Acest step sequencer se bazeaza pe computer vision pentru a urmari pozitia unor 
 - Max MSP
 - OSC
 
+### IP Webcam
+Am optat pentru a folosi telefonul pe post de camera web, prin intermediul acestei aplicatii de pe Play Store.
+
 ### stream_script.py (WIP)
 Acest cod va analiza flux video, va mapa locatiile pieselor in doua matrici.
 
@@ -17,11 +20,11 @@ Acest patch va primi mesage OSC care se va updata continuu cu sunetul generat de
 
 
 ## Utilizare
-Este necesara o camera web centrata deasupra matricei de piese. Se va rula scriptul python stream_script.py care va cere incadrarea matricei intre patru margini apoi pornirea streamului. Apoi se va rula patch-ul.
+Este necesara o camera web (telefon) centrata deasupra matricei de piese. Se va rula scriptul python stream_script.py care va cere incadrarea matricei intre patru margini apoi pornirea streamului. Apoi se va rula patch-ul.
 
 ## Istoric
 
-(13.05) Formularea unui plan cat mai concret, documentarea privind alegerea unui algoritm de detectie cat mai eficient, realizarea conexiunii cu o camera web.
+(13.05) Formularea unui plan cat mai concret, documentarea privind alegerea unui algoritm de detectie cat mai eficient, realizarea conexiunii cu o camera web (android_cam.py).
 
 (3.06) ...
 
