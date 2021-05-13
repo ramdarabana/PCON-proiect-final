@@ -32,4 +32,3 @@ Este necesara o camera web (telefon) centrata deasupra matricei de piese. Se va 
 (X.06) ...
 
 ## (Link-uri)
-https://learnopencv.com/blob-detection-using-opencv-python-c/
