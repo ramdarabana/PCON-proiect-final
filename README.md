@@ -7,7 +7,7 @@ Acest step sequencer se bazeaza pe computer vision pentru a urmari pozitia unor 
 - OpenCV
 - Numpy
 - Max MSP
-- OSC
+- OSC (pythonosc)
 
 ### IP Webcam
 Am optat pentru a folosi telefonul pe post de camera web, prin intermediul acestei aplicatii de pe Play Store.
@@ -21,7 +21,8 @@ Acest patch primeste doua tipuri de mesaje OSC, cu locatiile pieselor albe si ne
 
 ## Utilizare
 Este necesara o camera web (telefon conectat la Wi-Fi) centrata deasupra matricei de piese si mentinuta fix. Se va rula scriptul python step_sequencer.py unde se va deschide o fereastra 'Output' cu un cadru static al matricei. Se va apasa pe rand fiecare colt al matricei in ordinea urmatoare: stanga sus, stanga jos, dreapta jos, dreapta sus, apoi se apasa orice tasta. Se va deschide o noua fereastra 'Final' unde se va putea urmari plasarea pieselor albe si negre in matrice. Se va rula scriptul Max step_sequencer.maxpat.
-! Trebuie avut in vedere ca in scriptul python, ip-ul sa fie cel al retelei locale iar portul sa fie identic cu cel din patch-ul Max.
+
+! Trebuie avut in vedere ca in scriptul python, link-ul catre stream-ul video sa fie cel din aplicatie, ip-ul de client sa fie cel al retelei locale iar portul sa fie identic cu cel din patch-ul Max.
 
 ## Istoric
 
@@ -29,6 +30,6 @@ Este necesara o camera web (telefon conectat la Wi-Fi) centrata deasupra matrice
 
 (3.06) ...
 
-(X.06) ...
+(11.06) 
 
 ## (Link-uri)
