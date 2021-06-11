@@ -43,6 +43,6 @@ code:
 # add as many "url+licence+comment" entries as necessary
 # (or remove it altogether if you haven't used any external assets)
 assets:
-  - comment: Making music with a Go board step sequencer
-    url: https://hackaday.com/2020/10/05/go-board-step-sequencer-lets-go-make-some-music/#more-434158
+  - comment:
+    url:
     licence:
