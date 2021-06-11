@@ -9,6 +9,10 @@ Acest step sequencer se bazeaza pe computer vision pentru a urmari pozitia unor 
 - Max MSP
 - OSC (pythonosc)
 
+### Programe folosie
+- Visual Studio Code
+- Max 8
+
 ### IP Webcam
 Am optat pentru a folosi telefonul pe post de camera web, prin intermediul acestei aplicatii de pe Play Store.
 
