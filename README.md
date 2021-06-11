@@ -7,17 +7,16 @@ Acest step sequencer se bazeaza pe computer vision pentru a urmari pozitia unor 
 - OpenCV
 - Numpy
 - Max MSP
-- OSC
+- OSC (
 
 ### IP Webcam
 Am optat pentru a folosi telefonul pe post de camera web, prin intermediul acestei aplicatii de pe Play Store.
 
-### WIP
-### stream_script.py
-Acest cod va analiza flux video, va mapa locatiile pieselor in doua matrici.
+### step_sequencer.py
+Acest cod analizeaza fluxul video, aplica algoritmul de detectie a blobului pentru a identifica piesele de culoare alba si neagra si mapeaza locatiile pieselor in interiorul unei matrici 8x8.
 
 ### step_sequencer.maxpat
-Acest patch va primi mesage OSC care se va updata continuu cu sunetul generat de fiecare pozitie ocupata in matrice.
+Acest patch primeste doua tipuri de mesaje OSC, cu locatiile pieselor albe si negre, se vor updata continuu cu sunetele generate de fiecare pozitie ocupata in matrice (piesele albe genereaza cate o melodie pentru primele patru coloane si un drone pentru urmatoarele patru coloane, iar piesele negre genereaza cate un sunet de percutie diferit pentru fiecare coloana, cu posibilitatea de a genera ).
 
 
 ## Utilizare
