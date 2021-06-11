@@ -34,6 +34,6 @@ Este necesara o camera web (telefon conectat la Wi-Fi) centrata deasupra matrice
 
 (3.06) ...
 
-(11.06) 
+(11.06) Finalizarea scriptului python, finalizarea patch-ului Max, incarcarea fisierelor finale.
 
 ## (Link-uri)
