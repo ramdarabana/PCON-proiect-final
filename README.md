@@ -32,8 +32,13 @@ Este necesara o camera web (telefon conectat la Wi-Fi) centrata deasupra matrice
 
 (13.05) Documentarea privind alegerea unui algoritm de detectie cat mai eficient (blob_detection.py), realizarea conexiunii cu o camera web (android_cam.py).
 
-(3.06) ...
+(3.06) Implementare script python pentru analiza streamului video de la webcam.
 
 (11.06) Finalizarea scriptului python, finalizarea patch-ului Max, incarcarea fisierelor finale.
 
 ## (Link-uri)
+https://learnopencv.com/blob-detection-using-opencv-python-c/
+https://cycling74.com/forums/help-noob-needs-step-sequencer-tutorial
+https://github.com/pattvira/01_EggStepSequencer
+https://python-osc.readthedocs.io/en/latest/client.html#example
+https://www.youtube.com/watch?v=hYc2a1ONTck&ab_channel=dude837
