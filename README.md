@@ -38,7 +38,11 @@ Este necesara o camera web (telefon conectat la Wi-Fi) centrata deasupra matrice
 
 ## (Link-uri)
 https://learnopencv.com/blob-detection-using-opencv-python-c/
+
 https://cycling74.com/forums/help-noob-needs-step-sequencer-tutorial
+
 https://github.com/pattvira/01_EggStepSequencer
+
 https://python-osc.readthedocs.io/en/latest/client.html#example
+
 https://www.youtube.com/watch?v=hYc2a1ONTck&ab_channel=dude837
