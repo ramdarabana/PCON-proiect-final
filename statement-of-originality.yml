@@ -27,9 +27,6 @@ code:
   - comment: Step Sequencer
     url: https://cycling74.com/forums/help-noob-needs-step-sequencer-tutorial
     licence:
-  - comment: Making music with a Go board step sequencer
-    url: https://hackaday.com/2020/10/05/go-board-step-sequencer-lets-go-make-some-music/#more-434158
-    licence:
   - comment: Egg Step Sequencer
     url: https://github.com/pattvira/01_EggStepSequencer
     licence:
@@ -43,6 +40,21 @@ code:
 # add as many "url+licence+comment" entries as necessary
 # (or remove it altogether if you haven't used any external assets)
 assets:
-  - comment:
-    url:
+  - comment: Python script for blob detection algorithm
+    url: https://learnopencv.com/blob-detection-using-opencv-python-c/
+    licence: 
+  - comment: Delicious Max/MSP Tutorial 2: Step Sequencer
+    url: https://www.youtube.com/watch?v=hYc2a1ONTck&ab_channel=dude837
+    licence:
+  - comment: Step Sequencer
+    url: https://cycling74.com/forums/help-noob-needs-step-sequencer-tutorial
+    licence:
+  - comment: Egg Step Sequencer
+    url: https://github.com/pattvira/01_EggStepSequencer
+    licence:
+  - comment: OSC Client
+    url: https://python-osc.readthedocs.io/en/latest/client.html#example
+    licence:
+  - comment: Lets Go
+    url: https://github.com/Satrat/lets-go
     licence:
